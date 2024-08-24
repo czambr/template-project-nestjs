@@ -12,6 +12,7 @@ This is a basic template for init projects using [Nest](https://github.com/nestj
 ## Steps
 
 1. Clone repo `git clone <url-this-repo>`
-2. Installation dependency `npm install `
-3. Running the app in development mode `npm run start:dev`
-4. Test the health endpoint doing a request `http://localhost:3000/check-status`
+2. Delete URL of origin this repo `git remote remove origin`
+3. Installation dependency `npm install && npm update`
+4. Running the app in development mode `npm run start:dev`
+5. Test the health endpoint doing a request `http://localhost:3000/check-status`
